@@ -10,7 +10,7 @@ kind is a more recent favorite for local Kubernetes deployment, using Docker con
 k3d, a featherweight in local Kubernetes deployment, shares a similar approach to kind but opts for deploying a lightweight k3s instead of standard Kubernetes. This means it inherits k3s’s pros and cons, boasting incredibly fast setup times—don’t worry about correctness; just marvel at the speed. The trade-offs include a super-slimmed-down OS (sans glibc), complicating certain OS-level operations, and a unique installation approach that might puzzle those accustomed to kubeadm’s standard deployment features.
 
 
-|  | minikube | kind | K3d |
+|  | minikube | kind | k3d |
 |---------|----------|------|-----|
 | runtime | VM | container | native |
 | multi node cluster | + | + | + |
